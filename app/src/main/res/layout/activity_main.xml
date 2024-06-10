@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
     <pl.droidsonroids.gif.GifImageView
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
@@ -17,15 +18,19 @@
 
     <TextView
         android:id="@+id/averageTempTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="204dp"
+        android:layout_height="27dp"
         android:layout_centerHorizontal="true"
         android:text="Average Temperature: "
         android:textColor="@color/black"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="161dp" />
-    B
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086" />
+
     <Button
         android:id="@+id/viewDetailsButton"
         android:layout_width="wrap_content"
